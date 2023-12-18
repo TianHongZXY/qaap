@@ -60,6 +60,8 @@ def post(prompt, stop, max_tokens=1600, model_name="gpt-3.5-turbo"):
             print(f"Traceback:\n{traceback.format_exc()}")
             return ""
         except Exception as e:
+            print(e)
+            print(f"Traceback:\n{traceback.format_exc()}")
             attempts += 1
             time.sleep(1)
             continue
