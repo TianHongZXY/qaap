@@ -63,7 +63,7 @@ information.append({"subject": "Joachim Löw", "relation": "coach of", "object":
 # Evaluation
 Set the `file_path` in `calc_metrics_with_check_and_match.py` and execute it.
 
-# How to Generalize to Other Constrained-based QA
+# How to Generalize to Other Constrained-based Reasoning QA
 In this work, we focus on the time-constrained QA. However, our framework can be modified to generalize to other constrained-based QA tasks. The key is to define the constraint as a python class, which should be able to be measured how well the constraint is satisfied and redefine the `match` function in `calc_metrics_with_check_and_match.py`.
 
 # Note
